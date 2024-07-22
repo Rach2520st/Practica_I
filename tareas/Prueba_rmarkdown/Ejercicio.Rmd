@@ -1,0 +1,25 @@
+---
+title: "Ejercicio"
+author: "Rachell Aravena"
+date: "2024-07-20"
+output: html_document
+---
+Este es mi primer R markdown
+
+Este es un archivo de prueba. Quiero insertar código para correr comandos sencillos.
+
+```{r}
+#Hacer un vector
+c(1:3, 100:200, 18)
+
+#hacer una división
+45/15
+```
+
+El código de arriba me sirvió mucho, Haré otro pero no quiero que se imprima el código.
+
+```{r, echo=FALSE}
+
+print("Aqui no hay eco")
+```
+
